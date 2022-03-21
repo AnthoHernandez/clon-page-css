@@ -1,0 +1,130 @@
+
+body, table {
+    color: rgb(109, 123, 147) !important;
+    font-weight: 600;
+}
+
+a{
+    color: rgb(109, 123, 147) ;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-link {
+    padding: 0.6rem 1.5rem;
+}
+.container {
+    max-width: 1100px;
+}
+.text-logo{
+
+    color: rgb(40, 72, 198);
+    font-weight: bold;
+}
+.nav-link {
+    color: rgb(109, 123, 147);
+    font-weight: bold;
+    
+ }
+ .nav-link.active {
+ 
+    box-shadow: 0px 9px 39px #3656d4;
+ }
+ .nav-link:focus, .nav-link.active:hover {
+    color: #1f3e72;
+}
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: rgb(54, 86, 212);
+}
+.border-bottom {
+    border-bottom: 0.2rem solid #fff!important;
+}
+
+.head-padding{
+    padding: 40px 0px !important;
+}
+.head-background{
+    background-color: rgb(255 255 255 / 66%);
+}
+.ancla{
+    position:relative;
+}
+.head-background .dblur{
+    position: absolute;
+    top: -2px;
+    right: -11px;
+    /* margin: -2px; */
+    width: 110%;
+    /* margin-left: -25px; */
+    height: 100%;
+    background: #ffffffe0;
+    z-index: -5;
+    filter: blur(13px);
+
+}
+.text-C1, h1, h2, h3, .btnt {
+    color: rgb(31, 62, 114);
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+.bkg-img1{
+    background-image: url(../images/image1-min.jpg);
+    height: 54rem;
+    width: 51rem;
+    background-size: cover;    
+    /* z-index: -52; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.PMsg1{
+        /* padding: 225px; */
+        padding-top: 200px;
+        /* position: relative; */
+        padding-right: 142px;
+        padding-left: 162px;
+        
+}
+.PMsg1 p{
+
+    padding-right: 70px;
+}
+.PMsgP{
+    position: relative;
+    left: 167px;
+    top: 130px;
+    right: -55px;
+    padding-right: 100px;
+    width: 49rem;
+
+}
+a.pa220 {
+    padding-left: 2px;
+    padding-right: 20px;
+}
+i.icy{
+    color: #ffbf0094;
+    background: rgb(255 249 227 );
+    padding: 8px;
+}
+i.icb{
+    color: rgb(54, 86, 212);
+    background: rgb(234 239 255 );
+    padding: 8px;
+}
+.PBtMsgP {
+    position: absolute;
+    left: 674px;
+    top: 91px;
+}
+.imgbar{
+    background-image: url(../images/image1-min.jpg);
+    height: 54rem;
+    width: 51rem;
+    background-size: cover;    
+    /* z-index: -52; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
